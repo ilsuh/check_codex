@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:zaliz:input:1",
+  "title": "Одна словарная статья или группа статей",
+  "description": "UTF-8 JSON; семантика пустой леммы определяется порядком внутри массива.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/article"
+    },
+    {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/article"
+      }
+    }
+  ],
+  "$defs": {
+    "article": {
+      "type": "object",
+      "properties": {
+        "lemma": {
+          "type": "string"
+        },
+        "symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "grammar": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "lemma",
+        "symbol",
+        "grammar"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

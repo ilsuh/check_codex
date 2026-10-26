@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zaliz-description"
+version = "0.4.0"
+description = "Разбор словарных описаний, склонение и спряжение на Python"
+license = {text = "GPL-2.0-only"}
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.optional-dependencies]
+test = ["jsonschema>=4.22,<5"]
+
+[project.scripts]
+zaliz = "zaliz.__main__:main"
+
+[tool.setuptools]
+packages = ["zaliz"]
+
+[tool.setuptools.package-data]
+zaliz = ["endings.json"]

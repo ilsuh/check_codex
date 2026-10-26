@@ -1,0 +1,5206 @@
+[
+  {
+    "schema_version": 1,
+    "source_index": 0,
+    "source": {
+      "lemma": "стол",
+      "symbol": "м",
+      "grammar": "1b (<i>предмет мебели</i>) ✧ уда́рить кулако́м по́ столу [//по столу́];"
+    },
+    "effective_lemma": "стол",
+    "inherited_from": null,
+    "headword": {
+      "text": "стол",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "предмет мебели"
+      },
+      {
+        "kind": "phraseology",
+        "text": "уда́рить кулако́м по́ столу [//по столу́]"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 1,
+    "source": {
+      "lemma": "",
+      "symbol": "м",
+      "grammar": "1b (<i>питание; отдел в учреждении</i>)"
+    },
+    "effective_lemma": "стол",
+    "inherited_from": 0,
+    "headword": {
+      "text": "стол",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "питание; отдел в учреждении"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 2,
+    "source": {
+      "lemma": "стол",
+      "symbol": "м",
+      "grammar": "1b (<i>престол</i>)"
+    },
+    "effective_lemma": "стол",
+    "inherited_from": null,
+    "headword": {
+      "text": "стол",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "престол"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 3,
+    "source": {
+      "lemma": "столб",
+      "symbol": "м",
+      "grammar": "1b"
+    },
+    "effective_lemma": "столб",
+    "inherited_from": null,
+    "headword": {
+      "text": "столб",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 4,
+    "source": {
+      "lemma": "столбене́ть",
+      "symbol": "нсв",
+      "grammar": "нп 1a"
+    },
+    "effective_lemma": "столбене́ть",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбенеть",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "explicit_marker",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 5,
+    "source": {
+      "lemma": "столбе́ц",
+      "symbol": "м",
+      "grammar": "5*b"
+    },
+    "effective_lemma": "столбе́ц",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбец",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 5,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 6,
+    "source": {
+      "lemma": "сто́лбик",
+      "symbol": "м",
+      "grammar": "3a"
+    },
+    "effective_lemma": "сто́лбик",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбик",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 7,
+    "source": {
+      "lemma": "сто́лбиковый",
+      "symbol": "п",
+      "grammar": "1a"
+    },
+    "effective_lemma": "сто́лбиковый",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбиковый",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 8,
+    "source": {
+      "lemma": "столби́ть",
+      "symbol": "нсв",
+      "grammar": "4b"
+    },
+    "effective_lemma": "столби́ть",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбить",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 4,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "transitive",
+          "transitivity_basis": "dictionary_default",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 9,
+    "source": {
+      "lemma": "столбня́к",
+      "symbol": "м",
+      "grammar": "3b"
+    },
+    "effective_lemma": "столбня́к",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбняк",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 10,
+    "source": {
+      "lemma": "столбняко́вый",
+      "symbol": "п",
+      "grammar": "1a"
+    },
+    "effective_lemma": "столбняко́вый",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбняковый",
+      "accent_variants": [
+        {
+          "primary": [
+            9
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 11,
+    "source": {
+      "lemma": "столбня́чный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "столбня́чный",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбнячный",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 12,
+    "source": {
+      "lemma": "столбово́й",
+      "symbol": "п",
+      "grammar": "1b⌧"
+    },
+    "effective_lemma": "столбово́й",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбовой",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "form": "short"
+            },
+            "status": "difficult",
+            "note": "⌧"
+          },
+          {
+            "selector": {
+              "form": "short",
+              "gender": "masculine"
+            },
+            "status": "absent",
+            "note": "⌧"
+          }
+        ],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 13,
+    "source": {
+      "lemma": "столбцы́",
+      "symbol": "мн.",
+      "grammar": "&lt;м 5*b&gt; (<i>свиток</i>)"
+    },
+    "effective_lemma": "столбцы́",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбцы",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "unspecified",
+        "number_scope": "plural_only",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": "masculine",
+          "pattern_animacy": "inanimate",
+          "index": 5,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "свиток"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 14,
+    "source": {
+      "lemma": "сто́лбча́тый",
+      "symbol": "п",
+      "grammar": "1a"
+    },
+    "effective_lemma": "сто́лбча́тый",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбчатый",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        },
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 15,
+    "source": {
+      "lemma": "столе́тие",
+      "symbol": "с",
+      "grammar": "7a"
+    },
+    "effective_lemma": "столе́тие",
+    "inherited_from": null,
+    "headword": {
+      "text": "столетие",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 7,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 16,
+    "source": {
+      "lemma": "столе́тний",
+      "symbol": "п",
+      "grammar": "2*a"
+    },
+    "effective_lemma": "столе́тний",
+    "inherited_from": null,
+    "headword": {
+      "text": "столетний",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 2,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 17,
+    "source": {
+      "lemma": "столе́тник",
+      "symbol": "м",
+      "grammar": "3a"
+    },
+    "effective_lemma": "столе́тник",
+    "inherited_from": null,
+    "headword": {
+      "text": "столетник",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 18,
+    "source": {
+      "lemma": "Столе́тов",
+      "symbol": "ф.",
+      "grammar": "<мс 1a>"
+    },
+    "effective_lemma": "Столе́тов",
+    "inherited_from": null,
+    "headword": {
+      "text": "Столетов",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "surname",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "pronominal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 19,
+    "source": {
+      "lemma": "сто́лечко",
+      "symbol": "н;",
+      "grammar": "числ., <i>В.=И., других форм нет</i>"
+    },
+    "effective_lemma": "сто́лечко",
+    "inherited_from": null,
+    "headword": {
+      "text": "столечко",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adverb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "invariable",
+          "family": "none",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      },
+      {
+        "part_of_speech": "numeral",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "unspecified",
+        "number_scope": "unspecified",
+        "inflection": {
+          "kind": "explicit",
+          "family": "explicit",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "case": "genitive"
+            },
+            "status": "absent",
+            "note": "других форм нет"
+          },
+          {
+            "selector": {
+              "case": "dative"
+            },
+            "status": "absent",
+            "note": "других форм нет"
+          },
+          {
+            "selector": {
+              "case": "instrumental"
+            },
+            "status": "absent",
+            "note": "других форм нет"
+          },
+          {
+            "selector": {
+              "case": "prepositional"
+            },
+            "status": "absent",
+            "note": "других форм нет"
+          }
+        ],
+        "explicit_forms": [
+          {
+            "features": {
+              "case": "nominative"
+            },
+            "word": {
+              "text": "столечко",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          }
+        ],
+        "relations": [
+          {
+            "target": {
+              "case": "accusative",
+              "animacy": "inanimate"
+            },
+            "same_as": [
+              {
+                "case": "nominative"
+              }
+            ]
+          },
+          {
+            "target": {
+              "case": "accusative",
+              "animacy": "animate"
+            },
+            "same_as": [
+              {
+                "case": "nominative"
+              }
+            ]
+          }
+        ],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 20,
+    "source": {
+      "lemma": "столе́шник",
+      "symbol": "м",
+      "grammar": "3a"
+    },
+    "effective_lemma": "столе́шник",
+    "inherited_from": null,
+    "headword": {
+      "text": "столешник",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 21,
+    "source": {
+      "lemma": "столе́шница",
+      "symbol": "ж",
+      "grammar": "5a"
+    },
+    "effective_lemma": "столе́шница",
+    "inherited_from": null,
+    "headword": {
+      "text": "столешница",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 5,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 22,
+    "source": {
+      "lemma": "сто́лик",
+      "symbol": "м",
+      "grammar": "3a"
+    },
+    "effective_lemma": "сто́лик",
+    "inherited_from": null,
+    "headword": {
+      "text": "столик",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 23,
+    "source": {
+      "lemma": "столи́кий",
+      "symbol": "п",
+      "grammar": "3a~"
+    },
+    "effective_lemma": "столи́кий",
+    "inherited_from": null,
+    "headword": {
+      "text": "столикий",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "form": "comparative"
+            },
+            "status": "absent",
+            "note": "~"
+          }
+        ],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 24,
+    "source": {
+      "lemma": "столи́стник",
+      "symbol": "м",
+      "grammar": "3a"
+    },
+    "effective_lemma": "столи́стник",
+    "inherited_from": null,
+    "headword": {
+      "text": "столистник",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 25,
+    "source": {
+      "lemma": "сто̀литро́вый",
+      "symbol": "п",
+      "grammar": "1a"
+    },
+    "effective_lemma": "сто̀литро́вый",
+    "inherited_from": null,
+    "headword": {
+      "text": "столитровый",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [
+            3
+          ],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 26,
+    "source": {
+      "lemma": "столи́ца",
+      "symbol": "ж",
+      "grammar": "5a"
+    },
+    "effective_lemma": "столи́ца",
+    "inherited_from": null,
+    "headword": {
+      "text": "столица",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 5,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 27,
+    "source": {
+      "lemma": "столи́чный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "столи́чный",
+    "inherited_from": null,
+    "headword": {
+      "text": "столичный",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 28,
+    "source": {
+      "lemma": "столи́ще",
+      "symbol": "м",
+      "grammar": "&lt;с 4a[①]&gt;"
+    },
+    "effective_lemma": "столи́ще",
+    "inherited_from": null,
+    "headword": {
+      "text": "столище",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": "neuter",
+          "pattern_animacy": "inanimate",
+          "index": 4,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [
+          {
+            "number": 1,
+            "optional": true
+          }
+        ],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 29,
+    "source": {
+      "lemma": "столкнове́ние",
+      "symbol": "с",
+      "grammar": "7a"
+    },
+    "effective_lemma": "столкнове́ние",
+    "inherited_from": null,
+    "headword": {
+      "text": "столкновение",
+      "accent_variants": [
+        {
+          "primary": [
+            9
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 7,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 30,
+    "source": {
+      "lemma": "столкну́ть",
+      "symbol": "св",
+      "grammar": "3b ◑I(-а́-)"
+    },
+    "effective_lemma": "столкну́ть",
+    "inherited_from": null,
+    "headword": {
+      "text": "столкнуть",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "transitive",
+          "transitivity_basis": "dictionary_default",
+          "reflexive": false,
+          "partner": {
+            "direction": "to_imperfective",
+            "type": "I",
+            "replacement": "-а́-",
+            "raw": "◑I(-а́-)"
+          }
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 31,
+    "source": {
+      "lemma": "столкну́ться",
+      "symbol": "св",
+      "grammar": "3b ◑I(-а́-)"
+    },
+    "effective_lemma": "столкну́ться",
+    "inherited_from": null,
+    "headword": {
+      "text": "столкнуться",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": {
+            "direction": "to_imperfective",
+            "type": "I",
+            "replacement": "-а́-",
+            "raw": "◑I(-а́-)"
+          }
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 32,
+    "source": {
+      "lemma": "столкова́ться",
+      "symbol": "св",
+      "grammar": "2a ◑I"
+    },
+    "effective_lemma": "столкова́ться",
+    "inherited_from": null,
+    "headword": {
+      "text": "столковаться",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 2,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": {
+            "direction": "to_imperfective",
+            "type": "I",
+            "replacement": null,
+            "raw": "◑I"
+          }
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 33,
+    "source": {
+      "lemma": "столко́вываться",
+      "symbol": "нсв",
+      "grammar": "1a ◑2"
+    },
+    "effective_lemma": "столко́вываться",
+    "inherited_from": null,
+    "headword": {
+      "text": "столковываться",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": {
+            "direction": "to_perfective",
+            "type": "2",
+            "replacement": null,
+            "raw": "◑2"
+          }
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 34,
+    "source": {
+      "lemma": "столова́нье",
+      "symbol": "с",
+      "grammar": "6*a"
+    },
+    "effective_lemma": "столова́нье",
+    "inherited_from": null,
+    "headword": {
+      "text": "столованье",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 6,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 35,
+    "source": {
+      "lemma": "столова́ться",
+      "symbol": "нсв",
+      "grammar": "2a"
+    },
+    "effective_lemma": "столова́ться",
+    "inherited_from": null,
+    "headword": {
+      "text": "столоваться",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 2,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 36,
+    "source": {
+      "lemma": "столо́вая",
+      "symbol": "ж",
+      "grammar": "&lt;п 1a&gt;"
+    },
+    "effective_lemma": "столо́вая",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовая",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 37,
+    "source": {
+      "lemma": "столоверче́ние",
+      "symbol": "с",
+      "grammar": "7a"
+    },
+    "effective_lemma": "столоверче́ние",
+    "inherited_from": null,
+    "headword": {
+      "text": "столоверчение",
+      "accent_variants": [
+        {
+          "primary": [
+            10
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 7,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 38,
+    "source": {
+      "lemma": "столо́вка",
+      "symbol": "ж",
+      "grammar": "3*a"
+    },
+    "effective_lemma": "столо́вка",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовка",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 39,
+    "source": {
+      "lemma": "столовни́к",
+      "symbol": "мо",
+      "grammar": "3b"
+    },
+    "effective_lemma": "столовни́к",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовник",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 40,
+    "source": {
+      "lemma": "столовраще́ние",
+      "symbol": "с",
+      "grammar": "7a"
+    },
+    "effective_lemma": "столовраще́ние",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовращение",
+      "accent_variants": [
+        {
+          "primary": [
+            10
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 7,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 41,
+    "source": {
+      "lemma": "столо́вский",
+      "symbol": "п",
+      "grammar": "3a✕~"
+    },
+    "effective_lemma": "столо́вский",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовский",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "form": "short"
+            },
+            "status": "difficult",
+            "note": "✕"
+          },
+          {
+            "selector": {
+              "form": "comparative"
+            },
+            "status": "absent",
+            "note": "~"
+          }
+        ],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 42,
+    "source": {
+      "lemma": "столо́вый",
+      "symbol": "п",
+      "grammar": "1a"
+    },
+    "effective_lemma": "столо́вый",
+    "inherited_from": null,
+    "headword": {
+      "text": "столовый",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 43,
+    "source": {
+      "lemma": "столо́н",
+      "symbol": "м",
+      "grammar": "1a"
+    },
+    "effective_lemma": "столо́н",
+    "inherited_from": null,
+    "headword": {
+      "text": "столон",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 44,
+    "source": {
+      "lemma": "столонача́льник",
+      "symbol": "мо",
+      "grammar": "3a"
+    },
+    "effective_lemma": "столонача́льник",
+    "inherited_from": null,
+    "headword": {
+      "text": "столоначальник",
+      "accent_variants": [
+        {
+          "primary": [
+            9
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 45,
+    "source": {
+      "lemma": "столообра́зный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "столообра́зный",
+    "inherited_from": null,
+    "headword": {
+      "text": "столообразный",
+      "accent_variants": [
+        {
+          "primary": [
+            9
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 46,
+    "source": {
+      "lemma": "столо́чь",
+      "symbol": "св,",
+      "grammar": "<i>спряж. см.</i> затоло́чь"
+    },
+    "effective_lemma": "столо́чь",
+    "inherited_from": null,
+    "headword": {
+      "text": "столочь",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "needs_reference",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "reference",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "transitive",
+          "transitivity_basis": "dictionary_default",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": {
+          "kind": "conjugation_pattern",
+          "target": {
+            "text": "затолочь",
+            "accent_variants": [
+              {
+                "primary": [
+                  6
+                ],
+                "secondary": [],
+                "basis": "explicit"
+              }
+            ]
+          },
+          "resolution": "missing",
+          "source_index": null
+        }
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": [
+      {
+        "code": "MISSING_REFERENCE",
+        "message": "В группе нет описания образца «затолочь»."
+      }
+    ]
+  },
+  {
+    "schema_version": 1,
+    "source_index": 47,
+    "source": {
+      "lemma": "столо́чься",
+      "symbol": "св,",
+      "grammar": "<i>спряж. см.</i> затоло́чься"
+    },
+    "effective_lemma": "столо́чься",
+    "inherited_from": null,
+    "headword": {
+      "text": "столочься",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "needs_reference",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "reference",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": {
+          "kind": "conjugation_pattern",
+          "target": {
+            "text": "затолочься",
+            "accent_variants": [
+              {
+                "primary": [
+                  6
+                ],
+                "secondary": [],
+                "basis": "explicit"
+              }
+            ]
+          },
+          "resolution": "missing",
+          "source_index": null
+        }
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": [
+      {
+        "code": "MISSING_REFERENCE",
+        "message": "В группе нет описания образца «затолочься»."
+      }
+    ]
+  },
+  {
+    "schema_version": 1,
+    "source_index": 48,
+    "source": {
+      "lemma": "столп",
+      "symbol": "м",
+      "grammar": "1b (<i>столб, колонна</i>);"
+    },
+    "effective_lemma": "столп",
+    "inherited_from": null,
+    "headword": {
+      "text": "столп",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "столб, колонна"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 49,
+    "source": {
+      "lemma": "",
+      "symbol": "мо",
+      "grammar": "1b (<i>крупный деятель</i>: столпы́ о́бщества <i>и т. п.</i>)"
+    },
+    "effective_lemma": "столп",
+    "inherited_from": 48,
+    "headword": {
+      "text": "столп",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "крупный деятель"
+      },
+      {
+        "kind": "example",
+        "text": "столпы́ о́бщества и т. п."
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 50,
+    "source": {
+      "lemma": "столпи́ть",
+      "symbol": "св",
+      "grammar": "4b"
+    },
+    "effective_lemma": "столпи́ть",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпить",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 4,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "transitive",
+          "transitivity_basis": "dictionary_default",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 51,
+    "source": {
+      "lemma": "столпи́ться",
+      "symbol": "св",
+      "grammar": "4b"
+    },
+    "effective_lemma": "столпи́ться",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпиться",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 4,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "perfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "reflexive",
+          "reflexive": true,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 52,
+    "source": {
+      "lemma": "сто́лпник",
+      "symbol": "мо",
+      "grammar": "3a"
+    },
+    "effective_lemma": "сто́лпник",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпник",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 53,
+    "source": {
+      "lemma": "сто́лпничество",
+      "symbol": "с",
+      "grammar": "1a"
+    },
+    "effective_lemma": "сто́лпничество",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпничество",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 54,
+    "source": {
+      "lemma": "столпово́й",
+      "symbol": "п",
+      "grammar": "1b⌧"
+    },
+    "effective_lemma": "столпово́й",
+    "inherited_from": null,
+    "headword": {
+      "text": "столповой",
+      "accent_variants": [
+        {
+          "primary": [
+            8
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "form": "short"
+            },
+            "status": "difficult",
+            "note": "⌧"
+          },
+          {
+            "selector": {
+              "form": "short",
+              "gender": "masculine"
+            },
+            "status": "absent",
+            "note": "⌧"
+          }
+        ],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 55,
+    "source": {
+      "lemma": "столпообра́зный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "столпообра́зный",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпообразный",
+      "accent_variants": [
+        {
+          "primary": [
+            10
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 56,
+    "source": {
+      "lemma": "столпотворе́ние",
+      "symbol": "с",
+      "grammar": "7a"
+    },
+    "effective_lemma": "столпотворе́ние",
+    "inherited_from": null,
+    "headword": {
+      "text": "столпотворение",
+      "accent_variants": [
+        {
+          "primary": [
+            11
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 7,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 57,
+    "source": {
+      "lemma": "Столы́пин",
+      "symbol": "ф.",
+      "grammar": "<мс 1a>"
+    },
+    "effective_lemma": "Столы́пин",
+    "inherited_from": null,
+    "headword": {
+      "text": "Столыпин",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "surname",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "pronominal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 58,
+    "source": {
+      "lemma": "столы́пинский",
+      "symbol": "п",
+      "grammar": "3a✕~"
+    },
+    "effective_lemma": "столы́пинский",
+    "inherited_from": null,
+    "headword": {
+      "text": "столыпинский",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [
+          {
+            "selector": {
+              "form": "short"
+            },
+            "status": "difficult",
+            "note": "✕"
+          },
+          {
+            "selector": {
+              "form": "comparative"
+            },
+            "status": "absent",
+            "note": "~"
+          }
+        ],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 59,
+    "source": {
+      "lemma": "столы́пинщина",
+      "symbol": "ж",
+      "grammar": "1a"
+    },
+    "effective_lemma": "столы́пинщина",
+    "inherited_from": null,
+    "headword": {
+      "text": "столыпинщина",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 60,
+    "source": {
+      "lemma": "столь",
+      "symbol": "н",
+      "grammar": ""
+    },
+    "effective_lemma": "столь",
+    "inherited_from": null,
+    "headword": {
+      "text": "столь",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "monosyllabic"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adverb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "invariable",
+          "family": "none",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 61,
+    "source": {
+      "lemma": "сто́лько",
+      "symbol": "н;",
+      "grammar": "числ., <i>Р., П.</i> сто́льк|их, <i>Д.</i> -им, <i>Т.</i> -ими, <i>В. неод.=И., В. одуш.=Р. или И.</i> (<i>косв. формы употребляются только с названиями предметов, поддающихся счету</i>) ✧ по сто́льку [//по сто́лько] дне́й <i>и т. п.</i>;"
+    },
+    "effective_lemma": "сто́лько",
+    "inherited_from": null,
+    "headword": {
+      "text": "столько",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adverb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "invariable",
+          "family": "none",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      },
+      {
+        "part_of_speech": "numeral",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "unspecified",
+        "number_scope": "unspecified",
+        "inflection": {
+          "kind": "explicit",
+          "family": "explicit",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [
+          {
+            "features": {
+              "case": "nominative"
+            },
+            "word": {
+              "text": "столько",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "genitive"
+            },
+            "word": {
+              "text": "стольких",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "dative"
+            },
+            "word": {
+              "text": "стольким",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "instrumental"
+            },
+            "word": {
+              "text": "столькими",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "prepositional"
+            },
+            "word": {
+              "text": "стольких",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          }
+        ],
+        "relations": [
+          {
+            "target": {
+              "case": "accusative",
+              "animacy": "inanimate"
+            },
+            "same_as": [
+              {
+                "case": "nominative"
+              }
+            ]
+          },
+          {
+            "target": {
+              "case": "accusative",
+              "animacy": "animate"
+            },
+            "same_as": [
+              {
+                "case": "genitive"
+              },
+              {
+                "case": "nominative"
+              }
+            ]
+          }
+        ],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "usage",
+        "text": "косв. формы употребляются только с названиями предметов, поддающихся счету"
+      },
+      {
+        "kind": "phraseology",
+        "text": "по сто́льку [//по сто́лько] дне́й и т. п."
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 62,
+    "source": {
+      "lemma": "",
+      "symbol": "мс",
+      "grammar": "(<i>столь многое</i> [<i>без указания предмета</i>]: я́ сто́льким Ва́м обя́зан, о сто́льком переговори́ли <i>и т. п.</i>), <i>Р.</i> сто́льк|ого, <i>Д.</i> -ому, <i>Т.</i> -им, <i>П.</i> -ом, <i>В.=И.</i>"
+    },
+    "effective_lemma": "сто́лько",
+    "inherited_from": 61,
+    "headword": {
+      "text": "столько",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "pronoun",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "unspecified",
+        "number_scope": "unspecified",
+        "inflection": {
+          "kind": "explicit",
+          "family": "explicit",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": null,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": null,
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [
+          {
+            "features": {
+              "case": "nominative"
+            },
+            "word": {
+              "text": "столько",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "genitive"
+            },
+            "word": {
+              "text": "столького",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "dative"
+            },
+            "word": {
+              "text": "столькому",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "instrumental"
+            },
+            "word": {
+              "text": "стольким",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          },
+          {
+            "features": {
+              "case": "prepositional"
+            },
+            "word": {
+              "text": "стольком",
+              "accent_variants": [
+                {
+                  "primary": [
+                    3
+                  ],
+                  "secondary": [],
+                  "basis": "explicit"
+                }
+              ]
+            },
+            "status": "normal",
+            "note": ""
+          }
+        ],
+        "relations": [
+          {
+            "target": {
+              "case": "accusative"
+            },
+            "same_as": [
+              {
+                "case": "nominative"
+              }
+            ]
+          }
+        ],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "столь многое"
+      },
+      {
+        "kind": "usage",
+        "text": "без указания предмета"
+      },
+      {
+        "kind": "example",
+        "text": "я́ сто́льким Ва́м обя́зан, о сто́льком переговори́ли и т. п."
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 63,
+    "source": {
+      "lemma": "сто́льник",
+      "symbol": "мо",
+      "grammar": "3a (<i>должность</i>)"
+    },
+    "effective_lemma": "сто́льник",
+    "inherited_from": null,
+    "headword": {
+      "text": "стольник",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "meaning",
+        "text": "должность"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 64,
+    "source": {
+      "lemma": "сто́льник",
+      "symbol": "м",
+      "grammar": "3a (<i>простореч.</i>: <i>сто рублей</i>)"
+    },
+    "effective_lemma": "сто́льник",
+    "inherited_from": null,
+    "headword": {
+      "text": "стольник",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [
+      {
+        "kind": "register",
+        "text": "простореч."
+      },
+      {
+        "kind": "meaning",
+        "text": "сто рублей"
+      }
+    ],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 65,
+    "source": {
+      "lemma": "сто́льничать",
+      "symbol": "нсв",
+      "grammar": "нп 1a"
+    },
+    "effective_lemma": "сто́льничать",
+    "inherited_from": null,
+    "headword": {
+      "text": "стольничать",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "explicit_marker",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 66,
+    "source": {
+      "lemma": "сто́льничий",
+      "symbol": "п",
+      "grammar": "&lt;мс 6*a&gt;"
+    },
+    "effective_lemma": "сто́льничий",
+    "inherited_from": null,
+    "headword": {
+      "text": "стольничий",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "pronominal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 6,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 67,
+    "source": {
+      "lemma": "сто́льный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "сто́льный",
+    "inherited_from": null,
+    "headword": {
+      "text": "стольный",
+      "accent_variants": [
+        {
+          "primary": [
+            3
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 68,
+    "source": {
+      "lemma": "столя́р",
+      "symbol": "мо",
+      "grammar": "1b"
+    },
+    "effective_lemma": "столя́р",
+    "inherited_from": null,
+    "headword": {
+      "text": "столяр",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 69,
+    "source": {
+      "lemma": "столя́рить",
+      "symbol": "нсв",
+      "grammar": "нп 4a"
+    },
+    "effective_lemma": "столя́рить",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярить",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 4,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "explicit_marker",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 70,
+    "source": {
+      "lemma": "столяри́шка",
+      "symbol": "мо",
+      "grammar": "&lt;жо 3*a&gt;"
+    },
+    "effective_lemma": "столяри́шка",
+    "inherited_from": null,
+    "headword": {
+      "text": "столяришка",
+      "accent_variants": [
+        {
+          "primary": [
+            7
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "animate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": "feminine",
+          "pattern_animacy": "animate",
+          "index": 3,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 71,
+    "source": {
+      "lemma": "столя́рка",
+      "symbol": "ж",
+      "grammar": "3*a"
+    },
+    "effective_lemma": "столя́рка",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярка",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 3,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 72,
+    "source": {
+      "lemma": "столя́рная",
+      "symbol": "ж",
+      "grammar": "&lt;п 1a&gt;"
+    },
+    "effective_lemma": "столя́рная",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярная",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 73,
+    "source": {
+      "lemma": "столя́рничать",
+      "symbol": "нсв",
+      "grammar": "нп 1a"
+    },
+    "effective_lemma": "столя́рничать",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярничать",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "verb",
+        "gender": null,
+        "agreement_genders": [],
+        "animacy": "not_applicable",
+        "number_scope": "not_applicable",
+        "inflection": {
+          "kind": "regular",
+          "family": "verbal",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": {
+          "aspect": "imperfective",
+          "transitivity": "intransitive",
+          "transitivity_basis": "explicit_marker",
+          "reflexive": false,
+          "partner": null
+        },
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 74,
+    "source": {
+      "lemma": "столя́рничество",
+      "symbol": "с",
+      "grammar": "1a"
+    },
+    "effective_lemma": "столя́рничество",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярничество",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "neuter",
+        "agreement_genders": [
+          "neuter"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": false,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 75,
+    "source": {
+      "lemma": "столя́рный",
+      "symbol": "п",
+      "grammar": "1*a"
+    },
+    "effective_lemma": "столя́рный",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярный",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "adjective",
+        "gender": null,
+        "agreement_genders": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ],
+        "animacy": "not_applicable",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "adjectival",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 1,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  },
+  {
+    "schema_version": 1,
+    "source_index": 76,
+    "source": {
+      "lemma": "столя́рня",
+      "symbol": "ж",
+      "grammar": "2*a"
+    },
+    "effective_lemma": "столя́рня",
+    "inherited_from": null,
+    "headword": {
+      "text": "столярня",
+      "accent_variants": [
+        {
+          "primary": [
+            5
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "feminine",
+        "agreement_genders": [
+          "feminine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 2,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "a",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  }
+]

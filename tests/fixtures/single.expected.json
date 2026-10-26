@@ -1,0 +1,61 @@
+[
+  {
+    "schema_version": 1,
+    "source_index": 0,
+    "source": {
+      "lemma": "столбе́ц",
+      "symbol": "м",
+      "grammar": "5*b"
+    },
+    "effective_lemma": "столбе́ц",
+    "inherited_from": null,
+    "headword": {
+      "text": "столбец",
+      "accent_variants": [
+        {
+          "primary": [
+            6
+          ],
+          "secondary": [],
+          "basis": "explicit"
+        }
+      ]
+    },
+    "status": "parsed",
+    "readings": [
+      {
+        "part_of_speech": "noun",
+        "gender": "masculine",
+        "agreement_genders": [
+          "masculine"
+        ],
+        "animacy": "inanimate",
+        "number_scope": "both",
+        "inflection": {
+          "kind": "regular",
+          "family": "substantive",
+          "pattern_gender": null,
+          "pattern_animacy": null,
+          "index": 5,
+          "fleeting_vowel": true,
+          "special_alternation": false,
+          "consonant_alternation": null,
+          "stress": {
+            "full": "b",
+            "short": null,
+            "past": null
+          }
+        },
+        "verb": null,
+        "deviations": [],
+        "restrictions": [],
+        "explicit_forms": [],
+        "relations": [],
+        "reference": null
+      }
+    ],
+    "annotations": [],
+    "unparsed": [],
+    "diagnostics": []
+  }
+]

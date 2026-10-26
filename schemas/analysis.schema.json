@@ -1,0 +1,902 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:zaliz:analysis:1",
+  "title": "Нормализованная статья перед генерацией словоформ",
+  "description": "Это результат разбора, а не результат генерации и не заявление о полноте парадигмы.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "source_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source": {
+      "type": "object",
+      "description": "Исходный объект без изменений, включая ошибочные или дополнительные поля."
+    },
+    "effective_lemma": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "inherited_from": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "headword": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/word"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "status": {
+      "enum": [
+        "parsed",
+        "needs_reference",
+        "unsupported",
+        "invalid"
+      ]
+    },
+    "readings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reading"
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/annotation"
+      }
+    },
+    "unparsed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/diagnostic"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_index",
+    "source",
+    "effective_lemma",
+    "inherited_from",
+    "headword",
+    "status",
+    "readings",
+    "annotations",
+    "unparsed",
+    "diagnostics"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "parsed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "readings": {
+            "minItems": 1,
+            "items": {
+              "properties": {
+                "reference": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/reference"
+                        },
+                        {
+                          "properties": {
+                            "resolution": {
+                              "const": "resolved"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "diagnostics": {
+            "maxItems": 0
+          },
+          "unparsed": {
+            "maxItems": 0
+          },
+          "headword": {
+            "$ref": "#/$defs/word"
+          },
+          "effective_lemma": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "needs_reference"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "readings": {
+            "minItems": 1
+          },
+          "diagnostics": {
+            "minItems": 1
+          },
+          "unparsed": {
+            "maxItems": 0
+          },
+          "headword": {
+            "$ref": "#/$defs/word"
+          },
+          "effective_lemma": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "unsupported",
+              "invalid"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "diagnostics": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "features": {
+      "type": "object",
+      "properties": {
+        "case": {
+          "enum": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative",
+            "instrumental",
+            "prepositional",
+            "partitive",
+            "locative"
+          ]
+        },
+        "number": {
+          "enum": [
+            "singular",
+            "plural"
+          ]
+        },
+        "gender": {
+          "enum": [
+            "masculine",
+            "feminine",
+            "neuter"
+          ]
+        },
+        "animacy": {
+          "enum": [
+            "animate",
+            "inanimate"
+          ]
+        },
+        "form": {
+          "enum": [
+            "full",
+            "short",
+            "comparative",
+            "infinitive",
+            "finite",
+            "imperative",
+            "participle",
+            "gerund"
+          ]
+        },
+        "tense": {
+          "enum": [
+            "present",
+            "past",
+            "future"
+          ]
+        },
+        "person": {
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "voice": {
+          "enum": [
+            "active",
+            "passive"
+          ]
+        },
+        "preposition": {
+          "enum": [
+            "в",
+            "во",
+            "на"
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "accent": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "uniqueItems": true
+        },
+        "basis": {
+          "enum": [
+            "explicit",
+            "yo",
+            "monosyllabic",
+            "unstressed",
+            "missing"
+          ]
+        }
+      },
+      "required": [
+        "primary",
+        "secondary",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "word": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accent_variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/accent"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "text",
+        "accent_variants"
+      ],
+      "additionalProperties": false
+    },
+    "annotation": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "meaning",
+            "register",
+            "usage",
+            "phraseology",
+            "example"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "stress": {
+      "type": "object",
+      "properties": {
+        "full": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f](?:'{1,2})?$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "short": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[abc](?:'{1,2})?$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "past": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[abc](?:'{1,2})?$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "full",
+        "short",
+        "past"
+      ],
+      "additionalProperties": false
+    },
+    "inflection": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "regular",
+            "explicit",
+            "invariable",
+            "reference"
+          ]
+        },
+        "family": {
+          "enum": [
+            "substantive",
+            "adjectival",
+            "pronominal",
+            "verbal",
+            "explicit",
+            "none"
+          ]
+        },
+        "pattern_gender": {
+          "anyOf": [
+            {
+              "enum": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pattern_animacy": {
+          "anyOf": [
+            {
+              "enum": [
+                "animate",
+                "inanimate"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "index": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 16
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fleeting_vowel": {
+          "type": "boolean"
+        },
+        "special_alternation": {
+          "type": "boolean"
+        },
+        "consonant_alternation": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "stress": {
+          "$ref": "#/$defs/stress"
+        },
+        "yo_alternation": {
+          "type": "boolean",
+          "description": "Явная помета ё: чередование е/ё; отсутствие поля означает отсутствие указания."
+        },
+        "extra_cases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "case": {
+                "enum": [
+                  "partitive",
+                  "locative"
+                ]
+              },
+              "optional": {
+                "type": "boolean"
+              },
+              "preposition": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "в",
+                  "во",
+                  "на",
+                  null
+                ]
+              }
+            },
+            "required": [
+              "case",
+              "optional",
+              "preposition"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/inflection"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "family",
+        "pattern_gender",
+        "pattern_animacy",
+        "index",
+        "fleeting_vowel",
+        "special_alternation",
+        "consonant_alternation",
+        "stress"
+      ],
+      "additionalProperties": false
+    },
+    "partner": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "enum": [
+            "to_perfective",
+            "to_imperfective"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "replacement": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "raw": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "direction",
+        "type",
+        "replacement",
+        "raw"
+      ],
+      "additionalProperties": false
+    },
+    "verb": {
+      "type": "object",
+      "properties": {
+        "aspect": {
+          "enum": [
+            "perfective",
+            "imperfective",
+            "biaspectual"
+          ]
+        },
+        "transitivity": {
+          "enum": [
+            "transitive",
+            "intransitive",
+            "unknown"
+          ]
+        },
+        "transitivity_basis": {
+          "enum": [
+            "explicit_marker",
+            "reflexive",
+            "dictionary_default",
+            "unknown"
+          ]
+        },
+        "reflexive": {
+          "type": "boolean"
+        },
+        "partner": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/partner"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "aspect",
+        "transitivity",
+        "transitivity_basis",
+        "reflexive",
+        "partner"
+      ],
+      "additionalProperties": false
+    },
+    "restriction": {
+      "type": "object",
+      "properties": {
+        "selector": {
+          "$ref": "#/$defs/features"
+        },
+        "status": {
+          "enum": [
+            "absent",
+            "difficult",
+            "tentative"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "selector",
+        "status",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "explicit_form": {
+      "type": "object",
+      "properties": {
+        "features": {
+          "$ref": "#/$defs/features"
+        },
+        "word": {
+          "$ref": "#/$defs/word"
+        },
+        "status": {
+          "enum": [
+            "normal",
+            "difficult",
+            "tentative"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "features",
+        "word",
+        "status",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "$ref": "#/$defs/features"
+        },
+        "same_as": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/features"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "target",
+        "same_as"
+      ],
+      "additionalProperties": false
+    },
+    "reference": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "conjugation_pattern",
+            "declension_pattern"
+          ]
+        },
+        "target": {
+          "$ref": "#/$defs/word"
+        },
+        "resolution": {
+          "enum": [
+            "missing",
+            "resolved",
+            "ambiguous",
+            "cycle"
+          ]
+        },
+        "source_index": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "target",
+        "resolution",
+        "source_index"
+      ],
+      "additionalProperties": false
+    },
+    "reading": {
+      "type": "object",
+      "properties": {
+        "part_of_speech": {
+          "enum": [
+            "noun",
+            "adjective",
+            "verb",
+            "adverb",
+            "pronoun",
+            "numeral",
+            "surname"
+          ]
+        },
+        "gender": {
+          "anyOf": [
+            {
+              "enum": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "agreement_genders": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "masculine",
+              "feminine",
+              "neuter"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "animacy": {
+          "enum": [
+            "animate",
+            "inanimate",
+            "unspecified",
+            "not_applicable"
+          ]
+        },
+        "number_scope": {
+          "enum": [
+            "both",
+            "plural_only",
+            "unspecified",
+            "not_applicable"
+          ]
+        },
+        "inflection": {
+          "$ref": "#/$defs/inflection"
+        },
+        "verb": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/verb"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "deviations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9
+              },
+              "optional": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "number",
+              "optional"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/restriction"
+          }
+        },
+        "explicit_forms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/explicit_form"
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relation"
+          }
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/reference"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "part_of_speech",
+        "gender",
+        "agreement_genders",
+        "animacy",
+        "number_scope",
+        "inflection",
+        "verb",
+        "deviations",
+        "restrictions",
+        "explicit_forms",
+        "relations",
+        "reference"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostic": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "enum": [
+            "MISSING_REFERENCE",
+            "AMBIGUOUS_REFERENCE",
+            "REFERENCE_CYCLE",
+            "UNSUPPORTED_GRAMMAR",
+            "INVALID_INPUT",
+            "MISSING_STRESS"
+          ]
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

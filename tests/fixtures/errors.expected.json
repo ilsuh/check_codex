@@ -1,0 +1,175 @@
+[
+  {
+    "name": "empty_first_headword",
+    "input": {
+      "lemma": "",
+      "symbol": "м",
+      "grammar": "1b"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "",
+        "symbol": "м",
+        "grammar": "1b"
+      },
+      "effective_lemma": null,
+      "inherited_from": null,
+      "headword": null,
+      "status": "invalid",
+      "readings": [],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": [
+        {
+          "code": "INVALID_INPUT",
+          "message": "Пустая lemma: в группе нет предыдущего слова."
+        }
+      ]
+    }
+  },
+  {
+    "name": "missing_stress",
+    "input": {
+      "lemma": "дорога",
+      "symbol": "ж",
+      "grammar": "1f"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "дорога",
+        "symbol": "ж",
+        "grammar": "1f"
+      },
+      "effective_lemma": "дорога",
+      "inherited_from": null,
+      "headword": {
+        "text": "дорога",
+        "accent_variants": [
+          {
+            "primary": [],
+            "secondary": [],
+            "basis": "missing"
+          }
+        ]
+      },
+      "status": "invalid",
+      "readings": [],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": [
+        {
+          "code": "MISSING_STRESS",
+          "message": "Не указано основное ударение многосложного изменяемого слова."
+        }
+      ]
+    }
+  },
+  {
+    "name": "non_string_grammar",
+    "input": {
+      "lemma": "стол",
+      "symbol": "м",
+      "grammar": 5
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "стол",
+        "symbol": "м",
+        "grammar": 5
+      },
+      "effective_lemma": null,
+      "inherited_from": null,
+      "headword": null,
+      "status": "invalid",
+      "readings": [],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": [
+        {
+          "code": "INVALID_INPUT",
+          "message": "Поле grammar должно быть строкой."
+        }
+      ]
+    }
+  },
+  {
+    "name": "unknown_morphology",
+    "input": {
+      "lemma": "столбе́ц",
+      "symbol": "м",
+      "grammar": "5*b ☃"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "столбе́ц",
+        "symbol": "м",
+        "grammar": "5*b ☃"
+      },
+      "effective_lemma": "столбе́ц",
+      "inherited_from": null,
+      "headword": {
+        "text": "столбец",
+        "accent_variants": [
+          {
+            "primary": [
+              6
+            ],
+            "secondary": [],
+            "basis": "explicit"
+          }
+        ]
+      },
+      "status": "unsupported",
+      "readings": [
+        {
+          "part_of_speech": "noun",
+          "gender": "masculine",
+          "agreement_genders": [
+            "masculine"
+          ],
+          "animacy": "inanimate",
+          "number_scope": "both",
+          "inflection": {
+            "kind": "regular",
+            "family": "substantive",
+            "pattern_gender": null,
+            "pattern_animacy": null,
+            "index": 5,
+            "fleeting_vowel": true,
+            "special_alternation": false,
+            "consonant_alternation": null,
+            "stress": {
+              "full": "b",
+              "short": null,
+              "past": null
+            }
+          },
+          "verb": null,
+          "deviations": [],
+          "restrictions": [],
+          "explicit_forms": [],
+          "relations": [],
+          "reference": null
+        }
+      ],
+      "annotations": [],
+      "unparsed": [
+        "☃"
+      ],
+      "diagnostics": [
+        {
+          "code": "UNSUPPORTED_GRAMMAR",
+          "message": "Неизвестное обозначение: ☃."
+        }
+      ]
+    }
+  }
+]

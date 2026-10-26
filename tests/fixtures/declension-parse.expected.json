@@ -1,0 +1,204 @@
+[
+  {
+    "input": {
+      "lemma": "и́мя",
+      "symbol": "с",
+      "grammar": "8°c, ё"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "и́мя",
+        "symbol": "с",
+        "grammar": "8°c, ё"
+      },
+      "effective_lemma": "и́мя",
+      "inherited_from": null,
+      "headword": {
+        "text": "имя",
+        "accent_variants": [
+          {
+            "primary": [
+              1
+            ],
+            "secondary": [],
+            "basis": "explicit"
+          }
+        ]
+      },
+      "status": "parsed",
+      "readings": [
+        {
+          "part_of_speech": "noun",
+          "gender": "neuter",
+          "agreement_genders": [
+            "neuter"
+          ],
+          "animacy": "inanimate",
+          "number_scope": "both",
+          "inflection": {
+            "kind": "regular",
+            "family": "substantive",
+            "pattern_gender": null,
+            "pattern_animacy": null,
+            "index": 8,
+            "fleeting_vowel": false,
+            "special_alternation": true,
+            "consonant_alternation": null,
+            "stress": {
+              "full": "c",
+              "short": null,
+              "past": null
+            },
+            "yo_alternation": true
+          },
+          "verb": null,
+          "deviations": [],
+          "restrictions": [],
+          "explicit_forms": [],
+          "relations": [],
+          "reference": null
+        }
+      ],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": []
+    }
+  },
+  {
+    "input": {
+      "lemma": "жёлтый",
+      "symbol": "п",
+      "grammar": "1a/b, ё"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "жёлтый",
+        "symbol": "п",
+        "grammar": "1a/b, ё"
+      },
+      "effective_lemma": "жёлтый",
+      "inherited_from": null,
+      "headword": {
+        "text": "жёлтый",
+        "accent_variants": [
+          {
+            "primary": [
+              2
+            ],
+            "secondary": [],
+            "basis": "yo"
+          }
+        ]
+      },
+      "status": "parsed",
+      "readings": [
+        {
+          "part_of_speech": "adjective",
+          "gender": null,
+          "agreement_genders": [
+            "masculine",
+            "feminine",
+            "neuter"
+          ],
+          "animacy": "not_applicable",
+          "number_scope": "both",
+          "inflection": {
+            "kind": "regular",
+            "family": "adjectival",
+            "pattern_gender": null,
+            "pattern_animacy": null,
+            "index": 1,
+            "fleeting_vowel": false,
+            "special_alternation": false,
+            "consonant_alternation": null,
+            "stress": {
+              "full": "a",
+              "short": "b",
+              "past": null
+            },
+            "yo_alternation": true
+          },
+          "verb": null,
+          "deviations": [],
+          "restrictions": [],
+          "explicit_forms": [],
+          "relations": [],
+          "reference": null
+        }
+      ],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": []
+    }
+  },
+  {
+    "input": {
+      "lemma": "бе́лый",
+      "symbol": "мо",
+      "grammar": "<п 1a/c''>"
+    },
+    "expected": {
+      "schema_version": 1,
+      "source_index": 0,
+      "source": {
+        "lemma": "бе́лый",
+        "symbol": "мо",
+        "grammar": "<п 1a/c''>"
+      },
+      "effective_lemma": "бе́лый",
+      "inherited_from": null,
+      "headword": {
+        "text": "белый",
+        "accent_variants": [
+          {
+            "primary": [
+              2
+            ],
+            "secondary": [],
+            "basis": "explicit"
+          }
+        ]
+      },
+      "status": "parsed",
+      "readings": [
+        {
+          "part_of_speech": "noun",
+          "gender": "masculine",
+          "agreement_genders": [
+            "masculine"
+          ],
+          "animacy": "animate",
+          "number_scope": "both",
+          "inflection": {
+            "kind": "regular",
+            "family": "adjectival",
+            "pattern_gender": null,
+            "pattern_animacy": null,
+            "index": 1,
+            "fleeting_vowel": false,
+            "special_alternation": false,
+            "consonant_alternation": null,
+            "stress": {
+              "full": "a",
+              "short": "c''",
+              "past": null
+            }
+          },
+          "verb": null,
+          "deviations": [],
+          "restrictions": [],
+          "explicit_forms": [],
+          "relations": [],
+          "reference": null
+        }
+      ],
+      "annotations": [],
+      "unparsed": [],
+      "diagnostics": []
+    }
+  }
+]
